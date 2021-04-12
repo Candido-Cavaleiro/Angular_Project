@@ -24,6 +24,7 @@ import { PostagemEditarComponent } from './editar/postagem-editar/postagem-edita
 import { PostagemDeleteComponent } from './delete/postagem-delete/postagem-delete.component';
 import { UserEditarComponent } from './editar/user-editar/user-editar.component';
 import { AlertasComponent } from './alertas/alertas.component';
+import { PostagemDeletarComponent } from './deletar/postagem-deletar/postagem-deletar.component';
 
 
 
@@ -43,7 +44,8 @@ import { AlertasComponent } from './alertas/alertas.component';
     PostagemEditarComponent,
     PostagemDeleteComponent,
     UserEditarComponent,
-    AlertasComponent
+    AlertasComponent,
+    PostagemDeletarComponent
   ],
   imports: [
     BrowserModule,
